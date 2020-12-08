@@ -1,14 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-      <link rel="stylesheet" href="style.css">
-      <meta name="viewport"content="width=device-width,intial-scale=1.0">
-    <title> Carmen and Kira's Website </title>
-</head>
-<img src= "recipes.png" height="100%" width="100%">
+  <head>
+     <title>Food for Thought</title>
 
-<body> 
-    <h1>Food for Thought</h1>
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    </style>
+      <link href="album.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  
+
+
+</header>
+
+
+ <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Food for Thought</h1>
+    
+
+    <div class="col-4 d-flex justify-content-end align-items-right">
+      <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a> 
+    </div>
+  </div>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -48,6 +66,7 @@
 body {
   font-family: Arial;
   margin: 0;
+  width: 100%
 }
 </style>
 
@@ -56,18 +75,49 @@ body {
     <p> We post the best recipes, taking you through step by step to creat your own mouth watering dishes!</p>
     <p> Check out some of our newest, flavour packed recipes below. Yum!</p>
     <br>
+      
+  <div class="album py-5 bg-light">
+    <div class="container">
 
-<div class="responsive">
-    <div id="box1"> 
-      <img src= https://cdn.pixabay.com/photo/2014/11/05/16/00/thai-food-518035__340.jpg height=100% width=100%>  
-      <a href="padthai.html">Vegan Pad Thai</a>
-    </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src= "https://www.simplyrecipes.com/wp-content/uploads/2019/06/Vegetarian_Pad_Thai_Tofu00009.jpg" width="100%" height="100%" preserveAspectRatio= "1:1" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><a href="padthai.html">Vegan Pad Thai</a></img>
+            <div class="card-body">
+              <p class="card-text"> If you love going out for Thai food and want to replicate the deliciousness of pad thai at home then you’ll love this simple but insanely flavourful recipe!</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src ="https://cdn.pixabay.com/photo/2017/03/04/12/10/avocado-2115922__340.jpg " width="100%" height="100%" preserveAspectRatio="1:1" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><a href="padthai.html">Best Ever Guacamole</a></img>
+            <div class="card-body">
+              <p class="card-text">For all my fellow avocado toast advocates, looking for a way to level up a basic staple, the humble avocado, look no further!</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src ="https://cdn.pixabay.com/photo/2020/02/29/15/20/cake-4890393__340.jpg" width="100%" height="100%" preserveAspectRatio="1:1" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><a href="padthai.html">Yummy Carrot Cake</a></img>
+           <div class="card-body">
+              <p class="card-text">The best warm, delicately spiced and moist carrot cake you'll ever bake. Topped with fresh cream cheese, this is good!</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <script>
+      var name = prompt ("What is your name?");
+      console.log("Users name is: ", name);
+      alert("Food for Thought welcomes you " + name)
+      </script>
     
-          
-             
 
-    <script>
-var name = prompt ("What is your name?");
-console.log("Users name is: ", name);
-alert("Food for Thought welcomes you " + name)
-</script>
+</html>
